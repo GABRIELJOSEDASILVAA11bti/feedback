@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
-    --webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing:antialiased;
 }
  
 :root {
@@ -13,12 +13,13 @@
     --oragen:#FC7614;
     --white:#fff;
     --very-dark-blue:#131518;
-    --black-gradient: radial gradient (98.96%  98.96% at 50% 0%,#2a3038 0%, #181E27 100%);
+    --black-gradient: radial-gradient(98.96%  98.96% at 50% 0%,#2a3038 0%, #181E27 100%);
+    
 
 }
 
 body {
-    background-color: var(--very-dark-blue);
+    background:var(--very-dark-blue);
     height: 100svh;
 
     display: flex;
@@ -35,12 +36,13 @@ body {
 }
   
 
-margin-bottom: 24px;
+
 .card h1 {
 
     color: var(--white);
     font-size: 28px;
     margin-bottom: 15px;
+
     
 }
 
@@ -49,6 +51,7 @@ margin-bottom: 24px;
 color: var(--light-grey);
 font-size: 15px;
 line-height: 24px;
+margin-bottom: 24px;
 }
 
 .estrela {
